@@ -12,7 +12,7 @@ FIX INSERT IMAGE.
 The *objective* is to pack as much value into the bag as you can. You are *constrained* by the weight capacity of the container and how many items can fit. The *decisions* you have to make are which items to bring and which to leave behind. There are multiple ways to solve this problem with D-Wave's NL hybrid solver, but one is far superior. Can you think of principles we used while exploring the Traveling Salesperson Problem that might make your model more efficient?
 
 ## Setup
-To get access to our solvers, give your non-gmail email address to a D-Wave representative at the workshop. They will then be able to give you access and you will receive an acceptance email. Follow the email to create your D-Wave Leap™ cloud platform account. Then return to this repository. Open up Codespaces by clicking on the ![alt text](resources/button.png) button and selecting ![alt text](resources/button2.png). You will be asked to enter the following code into the Codespaces terminal:
+To get access to our solvers, give your non-gmail email address to a D-Wave representative at the workshop. They will then be able to give you access; you should receive an email from D-Wave notifications with a subject line similar to “You’ve been invited to a project in Leap.” Within that email is a link to Accept project invitation. Follow the invitation's instructions to create your D-Wave Leap™ cloud platform account, then return to this repository. Open up Codespaces by clicking on the ![alt text](resources/button.png) button and selecting ![alt text](resources/button2.png). You will be asked to enter the following code into the Codespaces terminal:
 
 `dwave setup --oob`
 
