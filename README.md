@@ -20,4 +20,3 @@ which will link you back to the Leap website for authentication. Copy the author
 
 ## Caveat
 Although the KP is a fantastic example for teaching, D-Wave's quantum and hybrid solvers would be unable to provide an advantage over classical tools if we only look at the unaltered archetypal problem. This is because the problem is entirely linear!
-FIX KEEP? IT HINTS THAT THE PROBLEM IS LINEAR WHICH MIGHT HELP THEM TOO MUCH.
