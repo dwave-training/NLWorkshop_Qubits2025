@@ -6,7 +6,6 @@ As explained in the slideshow, the KP is a simple archetype of optimization prob
 
 * The container has a maximum weight capacity $C$.
 * Every item $k$ has a value $v_k$ and a weight $w_k$. 
-* We will also include a capacity $M$ on the number of items that can be held
 
 
 FIX INSERT IMAGE.
