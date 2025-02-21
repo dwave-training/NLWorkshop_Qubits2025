@@ -5,7 +5,9 @@ Now that we've looked at a simple problem, let's code up a solution to the Knaps
 As explained in the slideshow, the KP is a simple archetype of optimization problems where you have a container (such as a knapsack) and a set of items.
 
 * The container has a maximum weight capacity $C$.
+* The container can only hold at most $M$ items.
 * Every item $k$ has a value $v_k$ and a weight $w_k$. 
+
 
 
 FIX INSERT IMAGE.
