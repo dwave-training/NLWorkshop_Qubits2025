@@ -18,8 +18,17 @@ sampler = LeapHybridNLSampler()
 sampler.sample(model, label='NL Example - TSP')
 
 
-# Read best samples
+# Test the initial state
+with model.lock():
+	model.states.resize(1)
+	x.set_state(0,[0,2,4,3,1])
+	#x.set_state(0,[0,4,2,3,1])
+	print(f"For state 0, x = {x.state(0)} results in an objective value of {model.objective.state(0)}")
 
+"""
+
+# Read best samples
 with model.lock():
 	current_state = 0
 	print(f"For state {current_state}, x = {x.state(current_state)} results in an objective value of {model.objective.state(current_state)}")
+"""
