@@ -38,7 +38,7 @@ def create_model(weights,values,weight_capacity,num_capacity):
 
     ## Now create your objective function
 
-    ## Add in constraints and you're done!
+    ## Add in constraints
 
     ## Return the model object
     return model
