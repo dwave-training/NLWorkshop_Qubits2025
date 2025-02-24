@@ -9,7 +9,9 @@ As explained in the slideshow, the KP is an optimization problem where you have 
 * The container can hold at most $M$ items.
 
 
-FIX INSERT IMAGE.
+
+<img src=resources/knapsack.png width="600">
+
 The *objective* is to maximize the total value of the knapsack bag. You are *constrained* by the weight capacity of the container and how many items can fit in it. The *decisions* you have to make are which items to bring and which to leave behind. There are multiple ways to solve this problem with D-Wave's NL hybrid solver, but one is far superior. Can you think of principles we used while exploring the NL solver in the Traveling Salesperson Problem? What choice of symbols will make your model more efficient?
 
 ## Setup
