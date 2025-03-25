@@ -19,7 +19,7 @@ To get access our solvers, give your non-gmail email address to a D-Wave represe
 
 `dwave setup --oob`
 
-which will link you back to the Leap website for authentication. Copy the authorization code and paste it into the prompt on your Codespaces terminal. After that, you can open our template file FIX INSERT FILE NAME and begin coding your solution!
+which will link you back to the Leap website for authentication. Copy the authorization code and paste it into the prompt on your Codespaces terminal. After that, you can open our `template.py` file and begin coding your solution!
 
 ## Note
-Although the KP is a fantastic example for teaching, D-Wave's quantum and hybrid solvers would be unable to provide an advantage over classical tools if we only look at the classic form of the problem. This is because the problem is entirely linear!
+Although the KP is a fantastic example for teaching, D-Wave's quantum and hybrid solvers would likely be unable to provide an advantage over classical tools if we only look at the classic form of the problem. This is because the problem is entirely linear!
