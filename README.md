@@ -19,7 +19,7 @@ Having signed up for this workshop, a D-Wave employee has already added you to t
 
 `dwave setup --oob`
 
-which will link you back to the Leap website for authentication. Copy the authorization code and paste it into the prompt on your Codespaces terminal. After that, you can open our `template.py` file and begin coding your solution!
+which will link you back to the Leap website for authentication. Copy the authorization code and paste it into the prompt on your Codespaces terminal. After that, you can start coding! We've put together two templates (`template_binary.py` and `template_set.py`) with slightly different test functions at the end. With the binary template, try solving this problem with binary variables. However, using set variables will let you take more advantage of the NL solver's power.
 
 ## Note
 Although the KP is a fantastic example for teaching, D-Wave's quantum and hybrid solvers would likely be unable to provide an advantage over classical tools if we only look at the classic form of the problem. This is because the problem is entirely linear!
