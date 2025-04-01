@@ -17,10 +17,13 @@
 '''
 Import the relevant packages here.
 '''
+from dwave.optimization import Model
+from dwave.system import LeapHybridNLSampler
 
 '''
 Define sampler here
 '''
+sampler = LeapHybridNLSampler()
 
 
 ## ------- Functions
@@ -31,13 +34,16 @@ def create_model(weights,values,weight_capacity,num_capacity):
     '''
 
     ## First create an empty model object
-
+    model = Model()
     ## Then define your variable(s) and constant(s)
-
+    x = model.set(len(weights),max_size=num_capacity)
+    v = model.constant(values)
+    w = model.constant(weights)
+    wc = model.constant(weight_capacity)
     ## Now create your objective function
-
+    model.minimize(-v[x].sum())
     ## Add in constraints
-
+    model.add_constraint(w[x].sum() <= wc)
     ## Return the model object
     return model
 
@@ -45,7 +51,9 @@ def run_sampler(model,time_limit = 5):
     '''
     Run the sampler and return the objective value of your solution.
     '''
-
+    sampler.sample(model)
+    with model.lock():
+        best_value = model.objective.state(0)
     return best_value
     
 
